@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+table.student-results {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table.student-results th, table.student-results td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table.student-results th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table.student-results tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.student-results tr:hover {
+    background-color: #ddd;
+}
