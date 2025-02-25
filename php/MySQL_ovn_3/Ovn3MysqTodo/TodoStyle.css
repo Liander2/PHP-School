@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c1445; /* Mörkblå bakgrund */
+    color: white; /* Vit text för bättre kontrast */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white; /* För att innehållet ska vara synligt */
+    color: black; /* Svart text på vit bakgrund */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header, footer {
+    background-color: #0c1445; /* Samma mörkblå färg på header och footer */
+    color: white;
+}
+
+footer {
+    position: relative; /* Se till att footern inte blockerar innehåll */
+    padding: 10px 0;
+    text-align: center;
+}
